@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# env / secrets
+.env
+.env.*
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# docker / runtime
+*.pid
+
+# node
+node_modules/
+web/node_modules/
+
+# next
+web/.next/
+web/out/
+web/build/
+web/dist/
+*.tsbuildinfo
+
+# uploads
+web/public/uploads/*
+!web/public/uploads/.gitkeep
+
+# prisma / generated
+web/prisma/dev.db
+web/prisma/dev.db-journal
+
+# editor
+.vscode/
+.idea/
+
+# misc
+coverage/
+tmp/
+temp/
